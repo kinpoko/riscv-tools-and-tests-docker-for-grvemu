@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  riscv-tests-build:
+    build: 
+      dockerfile: ./docker/Dockerfile
+    volumes:
+    - type: bind
+      source: ./target
+      target: /target
+    - type: bind
+      source: ./tests
+      target: /tests
+    tty: true
+  
