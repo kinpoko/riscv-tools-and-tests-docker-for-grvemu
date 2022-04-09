@@ -9,7 +9,7 @@ docker compose up -d --build
 ## get into container
 
 ```bash
-docker exec -it riscv-tools-and-tests-docker-riscv-tests-build-1 bash
+docker exec -it riscv-tools-and-tests-docker-for-grvemu-riscv-tests-build-1 bash
 ```
 
 ## build riscv-tests for [grvemu](https://github.com/kinpoko/grvemu)
