@@ -11,5 +11,8 @@ services:
     - type: bind
       source: ./tests
       target: /tests
+    - type: bind
+      source: ./c
+      target: /c
     tty: true
   
