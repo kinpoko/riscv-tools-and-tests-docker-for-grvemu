@@ -39,8 +39,22 @@ make install
 ./tests/tobin.sh
 ```
 
-### test grvemu
+## compile c code
+
+```bash
+./c/ctest.sh
+```
+
+## test grvemu
+
+### test riscv-test
 
 ```bash
 ./tests/riscv_tests.sh
+```
+
+### test c program
+
+```bash
+grvemu c/ctest.bin -d -e 0xc0001073
 ```
