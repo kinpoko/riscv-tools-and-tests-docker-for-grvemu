@@ -39,10 +39,10 @@ make install
 ./tests/tobin.sh
 ```
 
-## compile c code
+## compile c code and convert ELF to binary
 
 ```bash
-./c/ctest.sh
+./c/ctest_tobin.sh
 ```
 
 ## test grvemu
